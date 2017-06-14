@@ -1,0 +1,65 @@
+@dimension: 600px;
+@circle-color: purple;
+@triangle-color: yellow;
+@rectangle-color: green;
+@square-color: red;
+@shape-position: absolute;
+
+
+#sand-box {
+    margin-top: -109px;
+    height: @dimension;
+    width: @dimension;
+    background-color: white;
+    clear: both;
+    position: relative;
+}
+
+
+.circle {
+    background-color: @circle-color;  
+    border-radius: 50%;  
+    position: @shape-position;
+}
+
+.triangle {
+    border-width: 0;
+    border-color: transparent;
+    border-bottom-color: @triangle-color;
+    border-style: solid; 
+    position:@shape-position;
+}
+
+.rectangle {
+    background-color: @rectangle-color;
+    position: @shape-position;
+}
+
+.square {
+    background-color: @square-color;
+    position:@shape-position;
+}
+
+
+
+h1 {
+    font-weight: bold;
+}
+
+
+
+.shape-div {
+    width: 148px;
+    height: 160px;
+    float: left;
+    border:solid black 1px;
+    text-align: center;
+    position:static;
+}
+
+#detail-pane {
+    display: inline-block;
+    width: @dimension/2;
+    margin: 0 30px;
+    vertical-align: top;
+}

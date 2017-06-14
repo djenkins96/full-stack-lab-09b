@@ -1,0 +1,45 @@
+#sand-box {
+  margin-top: -109px;
+  height: 600px;
+  width: 600px;
+  background-color: white;
+  clear: both;
+  position: relative;
+}
+.circle {
+  background-color: purple;
+  border-radius: 50%;
+  position: absolute;
+}
+.triangle {
+  border-width: 0;
+  border-color: transparent;
+  border-bottom-color: yellow;
+  border-style: solid;
+  position: absolute;
+}
+.rectangle {
+  background-color: green;
+  position: absolute;
+}
+.square {
+  background-color: red;
+  position: absolute;
+}
+h1 {
+  font-weight: bold;
+}
+.shape-div {
+  width: 148px;
+  height: 160px;
+  float: left;
+  border: solid black 1px;
+  text-align: center;
+  position: static;
+}
+#detail-pane {
+  display: inline-block;
+  width: 300px;
+  margin: 0 30px;
+  vertical-align: top;
+}
